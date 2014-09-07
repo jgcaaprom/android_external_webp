@@ -46,6 +46,9 @@ LOCAL_SRC_FILES := \
         ../dsp/upsampling_neon.c \
         ../dsp/upsampling_sse2.c \
         ../dsp/yuv.c \
+        ../dsp/yuv_mips32.c \
+        ../dsp/yuv_mips_dsp_r2.c \
+        ../dsp/yuv_sse2.c \
         ../demux/demux.c \
         ../utils/bit_reader.c \
         ../utils/color_cache.c \
